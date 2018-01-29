@@ -12,3 +12,4 @@ yarn-error.log
 .env
 /.git
 project.config.json
+/venv
