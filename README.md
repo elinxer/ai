@@ -13,6 +13,9 @@ python3.6 -m pip tensorflow
 python3.6 -m pip numpy
 python3.6 -m pip pandas
 
+# cv包
+python3.6 -m pip opencv-python
+
 
 ```
 
