@@ -56,9 +56,11 @@ with tf.Session() as sess:
         prediction = sess.run(Weights) * x_data + sess.run(biases)
         lines = ax.plot(x_data, prediction, 'r-', lw=3)
         plt.pause(0.1)
+
         try:
             ax.lines.remove(lines[0])
-        except Exception:
+        except Exception as err:
+            print('error:', err)
             pass
 
         if step % 20 == 0:
