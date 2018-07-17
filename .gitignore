@@ -13,3 +13,6 @@ yarn-error.log
 /.git
 project.config.json
 /venv
+/flask/*
+/tests/logs/*
+/notebook/.ipynb_checkpoints
